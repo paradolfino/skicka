@@ -2,6 +2,7 @@ class MessagesController < ApplicationController
     before_action :set_message, only: [:show]
     
     def index
+        @message = Message.new
         @messages = Message.all
     end
     
