@@ -18,4 +18,8 @@ class MessagesController < ApplicationController
         def set_message
             @msg = Msg.find(params[:id]) 
         end
+        
+        def msg_params
+           params.require(:message).permit(:content) 
+        end
 end
