@@ -1,3 +1,7 @@
+This is a lil test app because I was bored. It's also kind of a prototype for a future project?
+
+
+Changelog:
 
 ##### 05/04/2018: 21:09 - 21:11:pool[create message model]
 
