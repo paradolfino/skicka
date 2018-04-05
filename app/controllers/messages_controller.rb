@@ -2,7 +2,7 @@ class MessagesController < ApplicationController
     before_action :set_message, only: [:show]
     
     def index
-        
+        @messages = Message.all
     end
     
     def create
@@ -16,7 +16,7 @@ class MessagesController < ApplicationController
     private
     
         def set_message
-            @msg = Msg.find(params[:id]) 
+            @message = Message.find(params[:id]) 
         end
         
         def msg_params
