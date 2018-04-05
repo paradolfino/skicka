@@ -9,9 +9,9 @@ class MessagesController < ApplicationController
     def create
         @message = Message.new(msg_params)
         if @message.save
-           redirect_to @message 
+           redirect_to root_path
         else
-            render 'index'
+            redirect_to root_path
         end
     end
     
