@@ -7,7 +7,12 @@ class MessagesController < ApplicationController
     end
     
     def create
-        
+        @message = Message.new(msg_params)
+        if @message.save
+           redirect_to @message 
+        else
+            render 'index'
+        end
     end
     
     def show
