@@ -12,4 +12,10 @@ class MessagesController < ApplicationController
     def show
         
     end
+    
+    private
+    
+        def set_message
+            @msg = Msg.find(params[:id]) 
+        end
 end
