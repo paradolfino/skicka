@@ -1,1 +1,10 @@
 
+[general project setup with model, controller, actions, and views]
+### 05/04/2018[21:09 - 21:42]:
+* create message model
+* create messages controller
+* set up messages routes
+* set up actions for messages controller
+* create test views for messages controller
+* affix index action as root route
+

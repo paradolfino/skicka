@@ -8,3 +8,5 @@
 ##### 05/04/2018: 21:17 - 21:24:pool[set up actions for messages controller]
 
 ##### 05/04/2018: 21:24 - 21:31:pool[create test views for messages controller]
+
+##### 05/04/2018: 21:31 - 21:42:pool[affix index action as root route]
