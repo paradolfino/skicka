@@ -1,1 +1,5 @@
 
+[implement react-rails and place basic component as a test on index view]
+### 06/04/2018[22:07 - 22:14]:
+* set up react-rails
+
